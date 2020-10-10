@@ -7,4 +7,7 @@ const router = express.Router();
 // POST 
 router.post('/subscription-listen', subscriptionController.subscriptionListen);
 
+// GET
+router.get('/subscription-send', subscriptionController.subscriptionSend);
+
 module.exports = router;

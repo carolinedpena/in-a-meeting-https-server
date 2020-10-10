@@ -7,6 +7,7 @@ const hostname = "localhost";
 const port = 5000;
 
 const subscriptionRoutes = require('./routes/subscription-routes');
+const subscriptionController = require('./controllers/subscription-controller');
 
 app.use(bodyParser.json());
 
